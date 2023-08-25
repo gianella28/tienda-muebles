@@ -41,6 +41,24 @@ img{
   display: block;
 }
 
+.btn{
+  background-color: #8cbc00;
+  display: block;
+  color:white ;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 1rem;
+  transition: background-color .3s ease-out ;
+}
+
+.btn:hover{
+  background-color: #769c02;
+}
+
+/*utilidades*/
+.text-center{
+  text-align: center;
+}
 /*Header y navegacion*/
 .nombre-sitio{
   margin-top: 5rem;
@@ -77,7 +95,7 @@ img{
 }
 .categorias h2{
   text-align: center;
-  
+ 
 }
 .categoria a{
   text-align: center;
@@ -104,5 +122,128 @@ img{
   background-position: left center;
   padding: 10rem 0;
   background-repeat: no-repeat;
-  background-size: 100% 120rem;
+  background-size: 100%, 120rem;
+  margin: 5rem;
 }
+.sobre-nosotros-grid{
+  display: flex;
+  justify-content: flex-end;
+ /* grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;*/
+}
+.texto-nosotros{
+  /*grid-column: 2/3;*/
+  flex-basis: 45%;
+  padding-left: 10rem;
+  color: white;
+ 
+}
+
+/*listado de productos*/
+.contenido-principal{
+  padding-top: 5rem;
+}
+.listado-productos{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+  /*o puedo poner gap:2rem;*/
+}
+.producto:nth-child(1){
+  /*opcion 1
+  grid-column: 1/7;
+  opcion 2 */
+  grid-column-start: 1;
+  grid-column-end: 7;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.producto:nth-child(1) img{
+ height: 43rem;
+ width: 100%;
+ object-fit: cover;
+}
+.producto:nth-child(2){
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.producto:nth-child(2) img, .producto:nth-child(3) img {
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+ }
+.producto:nth-child(3){
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+
+.producto:nth-child(4){
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.producto:nth-child(5){
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.producto:nth-child(6){
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+
+.producto{
+  background-color: #037bc0;
+}
+.texto-producto{
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+.texto-producto h3{
+  margin: 0;
+}
+
+.texto-producto p{
+  margin: 0 0 .5rem 0;
+}
+.texto-producto .precio p{
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+
+/*Footer*/
+.site-footer{
+  border-top: 1px solid #e1e1e1;
+  margin-top: 5rem;
+  padding: 5rem;
+}
+
+.site-footer h3{
+  margin-bottom: .5rem;
+}
+.grid-footer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.footer-menu a{
+  display: block;
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*
+permite animar la imagen (expandir 9
+.producto img:hover{
+  transform: scale(.8);
+}
+.listado-productos{
+
+}*/
