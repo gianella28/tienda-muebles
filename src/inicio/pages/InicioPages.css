@@ -1,0 +1,178 @@
+
+/*Header y navegacion*/
+.nombre-sitio{
+    margin-top: 5rem;
+    text-align: center;
+   
+  }
+  .nombre-sitio span{
+    color: #037bc0;
+  }
+  .contenedor-navegacion{
+    border-top: 1px solid #e1e1e1;
+  }
+  
+  .nav-principal{
+    /*ancho el tipo y el color de border*/
+    padding: 2rem 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+  }
+  
+  .hero {
+    background-image: url(src/assets/img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 55rem;
+  }
+  
+  /*Ccategorias*/
+  .categorias{
+    padding-top: 5rem;
+  }
+  .categorias h2{
+    text-align: center;
+   
+  }
+  .categoria a{
+    text-align: center;
+    display: block;
+    padding: 2rem;
+    font-size: 2rem;
+  }
+  
+  .categoria a:hover{
+    background-color: #037bc0;
+    color: #FFFFFF;
+    border-bottom-right-radius:1rem ;
+  }
+  .listado-categorias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  
+  /*Sobre nosotros*/
+  .sobre-nosotros{
+    background-image: linear-gradient( to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(src/assets/img/nosotros.jpg);
+    background-position: left center;
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    margin: 5rem;
+  }
+  .sobre-nosotros-grid{
+    display: flex;
+    justify-content: flex-end;
+   /* grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;*/
+  }
+  .texto-nosotros{
+    /*grid-column: 2/3;*/
+    flex-basis: 45%;
+    padding-left: 10rem;
+    color: white;
+   
+  }
+  
+  /*listado de productos
+  .contenido-principal{
+    padding-top: 5rem;
+  }*/
+  .listado-productos{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    /*o puedo poner gap:2rem;*/
+  }
+  .producto:nth-child(1){
+    /*opcion 1
+    grid-column: 1/7;
+    opcion 2 */
+    grid-column-start: 1;
+    grid-column-end: 7;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .producto:nth-child(1) img{
+   height: 43rem;
+   width: 100%;
+   object-fit: cover;
+  }
+  .producto:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .producto:nth-child(2) img, .producto:nth-child(3) img {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+   }
+  .producto:nth-child(3){
+    grid-column-start: 4;
+    grid-column-end: 7;
+  }
+  
+  .producto:nth-child(4){
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  .producto:nth-child(5){
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  
+  .producto:nth-child(6){
+    grid-column-start: 5;
+    grid-column-end: 7;
+  }
+  
+  .producto{
+    background-color: #037bc0;
+  }
+  .texto-producto{
+    text-align: center;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .texto-producto h3{
+    margin: 0;
+  }
+  
+  .texto-producto p{
+    margin: 0 0 .5rem 0;
+  }
+  .texto-producto .precio p{
+    font-size: 2.8rem;
+    font-weight: 900;
+  }
+  
+  /*Footer*/
+  .site-footer{
+    border-top: 1px solid #e1e1e1;
+    margin-top: 5rem;
+    padding: 5rem;
+  }
+  
+  .site-footer h3{
+    margin-bottom: .5rem;
+  }
+  .grid-footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .footer-menu a{
+    display: block;
+  }
+  .copyright{
+    display: flex;
+    justify-content: center;
+  }
