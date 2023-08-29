@@ -2,7 +2,7 @@ import { Footer, NavBar } from './inicio'
 import { InicioRoutes } from './router/InicioRoutes'
 import './styles.css'
 
-function App() {
+export const App = () =>  {
   return (
     <>
       <NavBar/>
@@ -12,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
