@@ -7,7 +7,6 @@ export const InicioPages = () => {
   return (
     <>
       <div className="hero">
-        <img src={principal} alt="principal" />
       </div>
       <Categorias/>
       <SobreNosotros/>

@@ -22,7 +22,7 @@
   }
   
   .hero {
-    /*background-image: url(src/assets/img/principal.jpg);*/
+    background-image: url(src/assets/img/principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
