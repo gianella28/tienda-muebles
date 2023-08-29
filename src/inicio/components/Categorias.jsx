@@ -1,4 +1,4 @@
-import React from 'react'
+import { categoria1, categoria2, categoria3 } from "../../assets/img"
 
 export const Categorias = () => {
   return (
@@ -7,15 +7,15 @@ export const Categorias = () => {
             <h2 className="text-center">Categorias de Productos</h2>
             <div className="listado-categorias">
                 <div className="categoria">
-                    <img src="src/assets/img/categoria1.jpg" alt="escritorio" />
+                    <img src={categoria1} alt="escritorio" />
                     <a href="#">Oficina</a>
                 </div>
                 <div className="categoria">
-                    <img src="src/assets/img/categoria2.jpg" alt="escritorio" />
+                    <img src={categoria2}  alt="escritorio" />
                     <a href="#">Hogar</a>
                 </div>
                 <div className="categoria">
-                    <img src="src/assets/img/categoria3.jpg" alt="escritorio" />
+                    <img src={categoria3}  alt="escritorio" />
                     <a href="#">Cocina</a>
                 </div>
             </div>
