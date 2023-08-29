@@ -1,12 +1,14 @@
+import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { EntradaPage } from '../pages/EntradaPage'
+import { EntradaBlog } from '../pages/EntradaBlog'
 
 
 export const EntradaRoutes = () => {
   return (
     <Routes>
-       <Route path="/entradaBlog" element={<EntradaPage />} />
-       <Route path="/*" element={<EntradaPage />} />
+        <Route path="/entradaBlog/:id" element={<EntradaBlog />} />
+        <Route path="/*" element={<EntradaBlog />} />
+       
     </Routes>
   )
 }

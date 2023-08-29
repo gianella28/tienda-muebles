@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import { galeria_01, galeria_02,galeria_03,galeria_04,galeria_05,galeria_06,galeria_07, galeria_08, galeria_09} from '../../assets/img';
 import "./GaleriaPage.css"
 export const GaleriaPage = () => {

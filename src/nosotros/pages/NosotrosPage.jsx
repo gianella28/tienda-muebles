@@ -1,6 +1,5 @@
-import React from 'react'
 import './NosotrosPage.css'
-
+import { nosotros } from '../../assets/img';
 
 export const NosotrosPage = () => {
   return (
@@ -9,7 +8,7 @@ export const NosotrosPage = () => {
         <h2 className="text-center">Sobre Nosotros</h2>
         <div className="contenido-nosotros">
           <div className='imagen'>
-            <img src="src/assets/img/nosotros.jpg" alt="imagen nosotros"/>
+            <img src={nosotros} alt="imagen nosotros"/>
           </div>
           <div className='informacion-nosotros'>
             <p>
