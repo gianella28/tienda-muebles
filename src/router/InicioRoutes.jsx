@@ -25,8 +25,6 @@ export const InicioRoutes = () => {
                 <Route path="/" element={ <Navigate to="/inicio" /> } />
             </Routes>
         </div>
-      
-
     </>
   )
 }
