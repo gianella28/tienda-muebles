@@ -1,12 +1,14 @@
 import React from 'react'
-import { Categorias, Footer, NavBar, NuestrosProductos, SobreNosotros } from '../components'
+import { Categorias, NuestrosProductos, SobreNosotros } from '../components'
 import './InicioPages.css'
-import { InicioRoutes } from '../../router/InicioRoutes'
+import principal from '../../assets/img/principal.jpg';
 
 export const InicioPages = () => {
   return (
     <>
-      <div className="hero"></div>
+      <div className="hero">
+        <img src={principal} alt="principal" />
+      </div>
       <Categorias/>
       <SobreNosotros/>
       <NuestrosProductos/>

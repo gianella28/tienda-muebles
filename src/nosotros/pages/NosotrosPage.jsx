@@ -1,5 +1,5 @@
 import './NosotrosPage.css'
-import { nosotros } from '../../assets/img';
+import nosotros from '../../assets/img/nosotros.jpg';
 
 export const NosotrosPage = () => {
   return (
