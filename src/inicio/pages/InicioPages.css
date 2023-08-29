@@ -22,7 +22,7 @@
   }
   
   .hero {
-    background-image: url(src/assets/img/principal.jpg);
+    background-image: url(../../assets/img/principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -58,7 +58,7 @@
   
   /*Sobre nosotros*/
   .sobre-nosotros{
-    background-image: linear-gradient( to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(src/assets/img/nosotros.jpg);
+    background-image: linear-gradient( to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../../assets/img/nosotros.jpg);
     background-position: left center;
     padding: 10rem 0;
     background-repeat: no-repeat;
