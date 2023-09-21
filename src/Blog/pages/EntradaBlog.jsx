@@ -22,12 +22,14 @@ export const EntradaBlog = () => {
         <h2>{entrada.titulo}</h2>
         <div className="imagen">
           <img src={entrada.imagen} alt={`imagen ${entrada.titulo}`} className="class" />
-          <div className="entrada-meta">
-            <p>Fecha: <span>{entrada.fecha}</span></p>
-            <p>Escrito por: <span>{entrada.autor}</span></p>
-          </div>
-          <div className="entrada-blog">
-            <p>{entrada.contenido}</p>
+          <div className="contenido-blog">
+            <div className="entrada-meta">
+              <p>Fecha: <span>{entrada.fecha}</span></p>
+              <p>Escrito por: <span>{entrada.autor}</span></p>
+            </div>
+            <div className="entrada-blog">
+              <p>{entrada.contenido}</p>
+            </div>
           </div>
         </div>
       </article>
