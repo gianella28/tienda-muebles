@@ -70,7 +70,7 @@ export const ContactoPage = () => {
                   </datalist>
                 </div>
             </fieldset>
-            <input className="btn" type="submit"  value="Enviar Formulario"/>
+            <input className="btna " type="submit"  value="Enviar Formulario"/>
           
           </form>
          

@@ -1,9 +1,9 @@
-import { categoria1, producto1} from '../../assets/img';
+import { producto1,producto2} from '../../assets/img';
 export const blogs = [
     {
       id:1,
       titulo: "Guía de Colores",
-      imagen: categoria1,
+      imagen: producto2,
       fecha: "26 de agosto del 2023",
       autor: "Tienda muebles",
       contenido: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quis et expedita culpa delectus quidem, dolores accusamus dolorem fugiat vel exercitationem aliquid veritatis ab porro necessitatibus odio quod consequuntur",

@@ -37,4 +37,26 @@
     border:  1px solid #e1e1e1;
     padding: 1rem;
 }
-
+.btna{
+    background-color: #8cbc00;
+    display: block;
+    color:white ;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out ;
+    text-align: center;
+    border: none;
+    width: 100%;
+   
+  }
+  
+  .btna:hover{
+    background-color: #769c02;
+    cursor: pointer;
+  }
+  @media (min-width: 768px) { 
+    .btna{
+      width: auto;
+    }
+  } 

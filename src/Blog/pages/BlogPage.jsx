@@ -25,10 +25,10 @@ import { blogs } from '../data/blogs';
                       <div className="entrada-blog">
                         <p>{entrada.contenido}</p>
                       </div>
+                      <NavLink to={`/entradaBlog/${entrada.id}`} className="btn">Leer</NavLink>
                     </div>
                 </div>
-                <NavLink to={`/entradaBlog/${entrada.id}`} className="btn max-widt">Leer</NavLink>
-                <div>{entrada.id}f</div>
+                
               </article>
             ))}
           </div>

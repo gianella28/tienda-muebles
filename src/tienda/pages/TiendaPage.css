@@ -61,11 +61,11 @@
       margin-bottom: 0;
     }
   } 
-.texto-producto{
-  text-align: center;
-  color: white;
-  padding: 2rem;
-}
+  .texto-producto{
+    text-align: center;
+    color: white;
+    padding: 2rem;
+  }
   .texto-producto h3{
     margin: 0;
   }

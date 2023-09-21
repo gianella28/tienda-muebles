@@ -187,14 +187,16 @@
     background-color: #037bc0;
     margin-bottom: 2rem;
   }
-  .producto:last-of-type{
-    margin-bottom: 0;
-  }
+
   @media (min-width: 768px) { 
     .producto{
       margin-bottom: 0;
     }
   } 
+  .producto:last-of-type{
+    margin-bottom: 0;
+  }
+  
   .texto-producto{
     text-align: center;
     color: white;
